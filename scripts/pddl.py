@@ -1,8 +1,8 @@
 import subprocess
 import os
 
-domain_file = 'C:/Users/User/Desktop/pddlfile/domain.pddl'
-problem_file = 'C:/Users/User/Desktop/pddlfile/problem2.pddl'
+domain_file = 'domain.pddl'
+problem_file = 'update_problem.pddl'
 
 cmd = ['pyperplan', '-s', 'gbf', '-H', 'hadd', domain_file, problem_file]
 
@@ -20,7 +20,7 @@ try:
                 print("task plan:")
                 print(solution)
         else:
-            print("do not find the file")
+            print("File not found.")
 
 except FileNotFoundError:
-    print("pyperplan not install correctly。")
+    print("pyperplan not installed correctly.")
