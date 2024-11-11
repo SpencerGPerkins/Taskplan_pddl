@@ -6,7 +6,7 @@
     power_supply_1 power_supply_2 power_supply_3 power_supply_4 power_supply_5 power_supply_6 power_supply_7 power_supply_8 power_supply_9 table power_supply - location
   )
   (:init
-    ;(arm-empty arm1)
+    (arm-empty arm1)
     ;(on red_wire table)
     (on blue_wire table)
     (on green_wire table)
@@ -26,7 +26,8 @@
   )
   (:goal
     (and
-    
+    (locked red_wire power_supply_7)
+    (locked blue_wire power_supply_7)
     )
   )
 )
