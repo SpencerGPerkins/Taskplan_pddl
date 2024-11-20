@@ -106,14 +106,6 @@ if __name__ == "__main__":
             print("end")
             break
         prompt = prompt_template.replace('#', user_input)
-<<<<<<<< HEAD:pddl_v1/scripts/gemma_pddl.py
-    json_file = '../update_data.json'
-    # Load the new goal from JSON
-    with open(json_file, 'r') as f:
-        data = json.load(f)
-        print(data)
-========
->>>>>>>> 975cd7002a5d0394248e1f0e99594fc6a22a86d9:front_llm/scripts/gemma_pddl.py
 
     goal_conditions = generate_response(prompt)  
 

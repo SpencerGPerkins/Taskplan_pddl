@@ -7,12 +7,14 @@
   )
   (:init
     (arm-empty arm1)
-    (on red_wire table)
+    ;(on red_wire table)
     (on blue_wire table)
     (on green_wire table)
     (on black_wire table)
     (on yellow_wire table)
-    (available red_wire)
+    ;(available red_wire)
+    (inserted red_wire power_supply_7)
+    (lockstate)
     (available blue_wire)
     (available green_wire)
     (available black_wire)
@@ -24,11 +26,8 @@
   )
   (:goal
     (and
-<<<<<<<< HEAD:pddl_v1/scripts/update_problem.pddl
-    <end_of_turn>
-========
-    #
->>>>>>>> 975cd7002a5d0394248e1f0e99594fc6a22a86d9:front_llm/scripts/update_problem.pddl
+    (locked red_wire power_supply_7)
+    (locked blue_wire power_supply_7)
     )
   )
 )

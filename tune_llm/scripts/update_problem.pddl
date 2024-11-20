@@ -24,11 +24,7 @@
   )
   (:goal
     (and
-<<<<<<<< HEAD:pddl_v1/scripts/update_problem.pddl
-    <end_of_turn>
-========
     #
->>>>>>>> 975cd7002a5d0394248e1f0e99594fc6a22a86d9:front_llm/scripts/update_problem.pddl
     )
   )
 )

@@ -1,0 +1,8 @@
+{
+  "problem_file": "problem.pddl",
+  "domain_file": "domain.pddl",
+  "update_problem": "update_problem.pddl"
+}
+
+
+  
