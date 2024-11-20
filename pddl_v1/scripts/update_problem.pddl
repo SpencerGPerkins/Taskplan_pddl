@@ -26,7 +26,7 @@
   )
   (:goal
     (and
-    
+    <end_of_turn>
     )
   )
 )

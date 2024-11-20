@@ -106,11 +106,7 @@ if __name__ == "__main__":
             print("end")
             break
         prompt = prompt_template.replace('#', user_input)
-    json_file = 'update_data.json'
-    # Load the new goal from JSON
-    with open(json_file, 'r') as f:
-        data = json.load(f)
-        print(data)
+    json_file = '../update_data.json'
 
     # Construct the new goal in PDDL format
     print(prompt)

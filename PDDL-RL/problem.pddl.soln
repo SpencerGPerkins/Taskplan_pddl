@@ -1,0 +1,8 @@
+(find blue_wire)
+(find red_wire)
+(pickup arm1 blue_wire table)
+(insert arm1 blue_wire power_supply_1)
+(lock arm2 blue_wire power_supply_1)
+(pickup arm1 red_wire table)
+(insert arm1 red_wire power_supply_2)
+(lock arm2 red_wire power_supply_2)

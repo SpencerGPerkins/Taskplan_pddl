@@ -1,0 +1,6 @@
+(pickup arm1 blue_wire table)
+(insert arm1 blue_wire power_supply_7)
+(lock arm2 blue_wire power_supply_7)
+(pickup arm1 green_wire table)
+(insert arm1 green_wire power_supply_4)
+(lock arm2 red_wire power_supply_7)
